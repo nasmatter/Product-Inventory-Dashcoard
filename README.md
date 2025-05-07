@@ -20,14 +20,8 @@ A simple and lightweight inventory management dashboard built with **Node.js**, 
 
 ## 📂 Project Structure
 
-PID-Project/
-├── public/
-│ └── index.html # Frontend
-├── controllers/
-│ └── productController.js # Business logic
-├── routes/
-│ └── products.js # API routing
-├── db/
-│ └── connection.js # MySQL connection
-├── server.js # Entry point
-└── README.md # Project documentation
+## 🗄️ Database Setup
+
+Run the following SQL script to create the necessary tables:
+👉 [schema.sql](./db/schema.sql)
+
